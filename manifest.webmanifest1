@@ -1,0 +1,11 @@
+﻿{
+  "lang": "ru-RU",
+  "name": "Vinopark",
+  "short_name": "Vinopark",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "Магазин Винопарк, вино, бутик",
+  "start_url":"/"
+}
+

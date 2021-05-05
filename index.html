@@ -1,0 +1,234 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+ 
+ <link rel="manifest" href="manifest.json">
+
+ <meta name="application-name" content="vinopark">
+
+ <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+ 
+  <title>Магазин Винопарк</title>
+
+  <link rel="icon" href="logo2.png" type="image/png">
+  <meta charset="utf-8">
+
+  <meta name = "description" content = "Магазин Винопарк, страсть находится внутри. Вино, водка, коньяк, шампанское, ликер">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="магазин Винопарк" />
+  <meta property="og:title" content="магазин Винопарк, вино, бутик" />
+  <meta property="og:url" content="www.vinopark.ru" />
+  <meta property="og:site_name" content="www.vinopark.ru"/>
+  <meta property="og:description" content="магазин Винопарк, вино, бутик" />
+  <meta property="og:image" content="logo.png" />
+  <meta property="og:image:secure_url" content="logo.png" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@vinopark.ru" />
+  <meta name="twitter:url" content="www.vinopark.ru" />
+  <meta name="twitter:title" content="магазин Винопарк, вино, бутик" />
+  <meta name="twitter:description" content="магазин Винопарк, вино, бутик" />
+  <meta name="twitter:image" content="logo.png" />
+  <meta name="twitter:image:width" content="2420" />
+  <meta name="twitter:image:height" content="240" />
+  <meta name="twitter:image:alt" content="Vinopark logo" />
+
+  
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Vinopark Ltd",
+  "url": "www.vinopark.ru",
+  "telephone": "+7(916)720-17-17",
+  "brand" : {"name":"vinopark"},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Варшавское шоссе 18 корпус 1",
+    "addressLocality": "Москва",
+    "postalCode": "117105",
+    "addressCountry": "RU"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "10:00",
+    "closes": "22:30"
+  },
+  "sameAs": "https://www.instagram.com/vinopark.ru/" 
+}
+</script>
+  
+  
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Raleway:ital,wght@1,300&display=swap');
+
+@media screen and (max-width : 600px) {
+    .vulc__nav {
+        font-size:1.5em;
+    }
+}
+		
+		body{
+	     	  font-family: 'Open Sans Condensed', sans-serif;
+		  font-size: 14px;
+			
+		}
+    .content
+    {
+      position: relative;
+    }
+		.image
+		{
+			width: 500px;
+		}
+		.image img
+		{
+			width:100%;
+		}
+		.wrapper 
+		{
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			justify-content:center;
+			align-items:center;
+      flex-direction: column;
+		}
+		.main 
+		{
+			width: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+      transform: rotateY(180deg);
+      background-color:rgb(21,33,53);
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+		}
+		.inst 
+		{
+			width:20px;
+		}
+    /* .content:hover .flip  {
+      transform: rotateY(180deg);
+    } */
+    .main
+    {
+      position: absolute;
+    }
+    .flip
+    {
+      position: relative;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+    .main
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .soon
+    {
+      margin: 55px auto;
+      width: 500px;
+      font-size: 11px;
+    }
+    .get_flip
+    {
+      transform: rotateY(180deg);
+    }
+    .get_clicked
+    {
+      background-color: antiquewhite;
+      width:100px;
+      height: 20px;
+      position: absolute;
+      top:-40px;
+      left:0;
+      border-radius: 2px;
+      padding: 5px;
+    }
+    .get_clicked:after 
+    {
+      content:'';
+      right: 8px;
+      bottom: -20px;
+      position: absolute;
+      border: 10px solid transparent; border-top: 10px solid antiquewhite;
+    }
+    .done_clicked
+    {
+      visibility: hidden;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    </style>
+
+ </head>
+ <body>
+	<div class="wrapper">
+    <div class="content">
+      <div class="get_clicked">
+        Кликни на меня
+      </div>
+      <DIV class="flip">
+		   <div class="image"> 
+			 <img src="vinopark.png" alt="визитка магазина Винопарк">
+		   </div> 
+
+			<div class="main" > 
+				 <h2> Винопарк </h2>
+				 <p>
+					 Магазин вина, бутик
+					 </br>
+					 117105, Москва, Варшавское шоссе 18 корпус 1
+					 <br> <br>
+					 <tel> +7(916)720-17-17 </tel>
+                                         <br>  
+                                         <mail>shop@vinopark.ru</mail>
+
+                     
+					<br> <br>
+                     <a target="blank" href="https://www.instagram.com/vinopark.ru/"> 
+			           <img class="inst" src="instagram-icon2.png" alt ="Instagram"/>
+					 </a>
+
+				   <br> <br> <br>
+
+				</p>
+			</div> 
+    </div>
+	</div>
+  <p class="soon">
+    Друзья! Мы заняты подготовкой магазина к открытию. Мы получили лицензию! Мы готовим ассортимент, вешаем высески и настраивам кассы и компьютеры! 
+    Скоро открытие магазина! 
+    Как будем готовы, обязательно сообщим Вам об этом событии! До встречи в нашем магазине!
+  </p>
+</DIV>
+
+ </body>
+  <script>
+    var clicked = false;
+    var element = document.getElementsByClassName('content')[0];
+element.addEventListener("click", function(e) {
+      console.log(e.target)
+      if(!clicked) document.getElementsByClassName('flip')[0].className +=' get_flip';
+      else document.getElementsByClassName('flip')[0].className ='flip';
+      clicked = !clicked;
+      document.getElementsByClassName('get_clicked')[0].className = 'done_clicked';
+    })
+  </script> 
+</html>
+
